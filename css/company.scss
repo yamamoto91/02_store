@@ -1,0 +1,59 @@
+main {
+  font-size: 1.4rem;
+  
+  .company-title {
+    margin: 3rem 0;
+  }
+  
+  .company {
+    @media (min-width: 769px) {
+      width: 70rem;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+
+      .box {
+        border-bottom: 0.1rem solid #DCDBDB;
+        @media (min-width: 769px) {
+          display: flex;
+        }
+        
+        .left {
+          @media (min-width: 769px) {
+            width: 20rem;
+          }
+        }
+      }
+      
+      .box2 {
+        @media (min-width: 769px) {
+          display: flex;
+        }
+        
+        .left {
+          @media (min-width: 769px) {
+            width: 20rem;
+          }
+        }
+      }
+    }
+      
+    .gmap {
+      position: relative;
+      height: 0;
+      overflow: hidden;
+      padding-bottom: 75%;
+      margin-top: 2rem;
+      
+      .gmap iframe {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+main {
+  .products-title {
+    margin: 3rem 0;
+  
+    p {
+      font-size: 1.4rem;
+    }
+  }
+  
+  .link {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+    p {
+      margin: 1.5rem;
+      text-decoration: none;
+      font-size: 1.4rem;
+    }
+  }
+}

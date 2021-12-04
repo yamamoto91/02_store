@@ -1,0 +1,19 @@
+main {
+  .about-title {
+    margin: 3rem 0;
+  
+    p {
+      font-size: 1.4rem;
+    }
+  }
+  
+  .about {
+    @media (min-width: 769px) {
+      width: 70rem;
+    }
+  
+    .text p {
+      font-size: 1.4rem;
+    }
+  }
+}
